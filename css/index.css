@@ -1,0 +1,88 @@
+body {
+  background-color: teal;
+  color: #ff0;
+  font-size: 11pt;
+  font-family: arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center; }
+  body .container {
+    padding: 2em;
+    width: 45em;
+    margin: 0 auto;
+    text-align: left; }
+    body .container h1 {
+      font-size: 240%;
+      margin-bottom: -.5em; }
+    body .container h2, body .container p, body .container ul, body .container code {
+      margin-bottom: 1em; }
+    body .container h2 a {
+      color: #fff; }
+    body .container h3 {
+      font-size: 140%;
+      margin-bottom: .4em; }
+    body .container ul {
+      padding-left: 2em; }
+      body .container ul li {
+        list-style-type: square; 
+        margin-left: 0;}
+    body .container a {
+      color: #8ADEE2; }
+    body .container code {
+      margin-left: 1em;
+      padding: .5em;
+      display: block;
+    }
+    body .container code, body .container .code {
+      background-color: #0C717A;
+      color: #fff;
+      font-size: 85%;
+      font-family: courier, monospace; }
+      body .container code a, body .container .code a {
+        color: #fff; }
+    body .container .copyright {
+      font-family: verdana, sans-serif;
+      font-size: 75%;
+      margin-top: 8em; }
+      body .container .copyright span {
+        color: #8ADEE2; }
+    body .container .download h4 {
+      font-size: 120%;
+      margin-top: -.5em;
+      color: #8ADEE2; }
+    body .container .twoot {
+      padding-top: 3em; }
+
+.tweetBox {
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    padding: 20px;
+    margin-top: 20px;
+    background: #91E5E7;
+    -moz-box-shadow: 0px 0px 15px #000;
+}
+/*.tweet_join {
+    -moz-text-shadow: 2px 2px 2px #000;
+    -webkit-text-shadow: 2px 2px 2px #000;
+}*/
+
+.title{font-family: georgia; font-size: 56px; font-weight: bold; font-style: italic; letter-spacing: -.1em; color: #fff; text-shadow:0 0 70px #fff, 0px 2px 2px #000;}
+.claim {float: right;padding-top: 25px;}
+.notice {text-align: center; color:#3ae; font-size: 10px;}
+.version {color:#fff; font-size: 10px; text-transform: uppercase; margin-left: 10px; opacity:.6; font-weight: bold;}
+.version span {font-size: 90%; margin-left: 6px; text-transform: none; opacity:.8;}
+.hosted {position: fixed; bottom:-10px; left: -10px; padding: 7px 15px 15px 20px; background: #fff; color: #3ae; -moz-border-radius: 10px; -webkit-border-radius: 10px;}
+.hosted span {font-size: 60%;}
+.hosted span:before {content:'v ';}
+
+a#tooCool {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    display: block;
+    height: 80px;
+    width: 80px;
+    background: url(http://www.w3junkies.com/toocool/files/too_cool_sash.png) bottom right no-repeat;
+    text-indent: -999em;
+    text-decoration: none;
+}
